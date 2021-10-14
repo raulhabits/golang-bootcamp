@@ -12,10 +12,10 @@ func Test_passedParametersShowcase(t *testing.T) {
 
 	parameterPassedPerValue(number)
 
-	fmt.Println("Test_passedParametersShowcase Passed Per Value", number)
+	fmt.Println("Test_passedParametersShowcase after being finished the function passed Per Value", number)
 
 	parameterPassedPerReference(&number)
 
-	fmt.Println("Test_passedParametersShowcase Passed Per Reference", number)
+	fmt.Println("Test_passedParametersShowcase  being finished the function passed Per Reference", number)
 
 }
