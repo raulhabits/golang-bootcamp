@@ -10,5 +10,5 @@ func GoRoutineForExecutingPrintFunction(goRoutinePrintData interface{}, mainFunc
 
 	fmt.Println(mainFunctionPrintData)
 
-	time.Sleep(time.Second* time.Duration(sleepSeconds))
+	time.Sleep(time.Second * time.Duration(sleepSeconds))
 }
